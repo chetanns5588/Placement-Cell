@@ -1,0 +1,109 @@
+﻿#logintable
+{
+	width:617px;
+	padding:10px;
+	margin : 20px;
+	text-align:center;
+	margin:0 auto;
+	background:transparent;
+}
+
+#logintable td
+{
+  height:70px;
+  max-height:70px; 
+  min-height:70px;
+  background:transparent;
+}
+
+.textbox_style
+{
+	font-family:FrankRuehl;
+	font-size: 16px;
+	color:#ffffff;
+	line-height:150%;
+	letter-spacing:2px;
+	border-bottom:1px solid;
+	border-left:none;
+	border-right:none;
+	border-top:none;
+	background:transparent;
+	width:220px;
+}
+
+.button_style
+{
+	width: 112px;
+	border:none;
+	height: 35px;
+    background:  url(../images/templatemo_button_01.png) no-repeat;
+	text-align:left;
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	font-family:Constantia;
+	text-decoration: none;
+	}
+
+
+.gridview
+{
+	border: 1px dotted #ffffff;
+	width:820px;
+	padding:10px;
+	text-align:center;
+	margin:0 auto;
+	font-family: Courier New;
+	font-size: 16px;
+	color:White;
+}
+
+.gridview .a
+{
+	color:Black;
+	text-decoration: underline;
+}
+
+.RowStyle {
+  height: 50px;
+}
+.AlternateRowStyle {
+  height: 50px;
+}
+
+.gridview1
+{
+	border: 1px dotted #ffffff;
+	width:850px;
+	padding:10px;
+	text-align:center;
+	margin:0 auto;
+	font-family: Courier New;
+	font-size: 16px;
+	color:White;
+}
+
+.gridview1 .a
+{
+	color:Black;
+	text-decoration: underline;
+}
+
+
+#searchtable
+{
+	width:100%;
+	padding:10px;
+	margin : 20px;
+	text-align:center;
+	margin:0 auto;
+	background:transparent;
+}
+
+#searchtable td
+{
+  height:70px;
+  max-height:70px; 
+  min-height:70px;
+  background:transparent;
+}

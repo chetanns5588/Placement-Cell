@@ -1,0 +1,58 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Student.master.cs" Inherits="placement_cell.Webpages.Student" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Online Placement Cell</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+     <link href="../CSS/templatemo_style.css" rel="stylesheet" type="text/css" />
+    <link href="../CSS/mycss.css" rel="Stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+   <div id="templatemo_container">
+	<div id="templatemo_site_title_bar">
+	    <div id="site_title">
+               <img src="../images/logooo.png" alt="logo" align="middle" /><span>PLACEMENT CELL</span>
+      </div>
+	</div> <!-- end of templatemo_site_title_bar -->
+    
+    <div id="templatemo_menu">
+	    <ul>
+            <li><a href="Studenthome.aspx">Home</a></li>
+            <li><a href="Studentdetails.aspx">Details</a></li>
+            <li><a href="Studentnewjobslist.aspx">New Jobs</a></li>
+            <li><a href="Studentplacedlist.aspx">Placed</a></li>
+             <li><a href="Studentlogin.aspx">Log Out</a></li>
+        </ul>
+    </div> <!-- end of templatemo_menu -->
+    
+    <div id="templatemo_content_wrapper">
+    
+    	<div id="templatemo_content">
+
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+
+
+    <div class="cleaner"></div>
+        </div> <!-- end of tempaltemo content -->
+    	
+
+        <div id="templatemo_footer">    
+            Copyright © 2014 <a href="#">Govt First Grade College</a> | Designed by Chetan, Erappa, Praveen and Pradeep </a> 
+        
+        </div>
+
+        <div class="cleaner"></div>
+    </div> <!-- end of templatemo_content_wrapper -->
+    
+</div> <!-- end of templatemo_container -->
+    </form>
+</body>
+</html>
